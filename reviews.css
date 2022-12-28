@@ -64,7 +64,8 @@ img{
 }
 
 .reviews-container{
-    margin-left: 350px;
+    margin-left: 250px;
+    margin-right: auto;
     padding: 20px;
    
 }
