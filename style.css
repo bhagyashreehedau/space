@@ -1,0 +1,632 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/cover1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: coverani;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: unset;
+    animation-delay: 1s;
+}
+
+@keyframes coverani {
+    20%{background-image: url(images/cover1.png);}
+  50%{background-image:url(images/cover.png)};
+    30%{background-image: url(images/cover1.png);};
+    }
+    
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.head{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+    position: sticky;
+    background-color: #222831;
+
+}
+
+li{
+    float: left;
+}
+
+
+
+.menu1 a{
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+    margin-right: 40px;
+    letter-spacing: 2px;
+}
+
+
+li a:hover{     
+    color:#FF6900 ;
+}
+
+img{
+    height: 50px;
+    top: 0;
+    left:0;
+    margin-left: 30px;
+}
+
+.offer{
+  background-color: #ff0000;
+  color: white;
+  font-weight: bolder;
+}
+
+.button1 a{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    border: 2px solid  #FF6900 ;
+    font-weight: bolder;
+    font-size: 15px;
+    position: relative;
+    margin:5px;
+    top: 50px;
+    color: #FF6900;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 0%;
+    transition: linear;
+}
+
+
+.button1 a:hover{
+    background-color: #FF6900;
+    color: rgb(255, 255, 255);
+    border: 2px solid #FF6900;
+    width: 100%;
+}
+
+#main{
+    color: aliceblue;
+    margin-left: 70px;
+    width: 700px;
+    height: 700x;
+    margin-bottom: 300px;
+    position: relative;
+    top: 20px;
+
+}
+
+h1{
+    margin-top: 150px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.fun{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(255, 90, 25);
+    margin-top: 0;
+}
+
+
+.ourspecial{
+    color: #FF6900;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 300px;
+    padding-top: 10px;
+    
+}
+
+.special{
+   color: rgb(255, 255, 255);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   justify-content: space-between;
+   border: 5px solid #222831;
+   margin: 5px 200px 100px 200px;
+   padding: 30px;
+   align-content: center;
+    
+}
+
+.special-1{
+    width: 300px;
+    height: 400px;
+    margin: 20px 20px 20px 20px;
+    background-color:  #222831;
+    border-radius: 15px;
+}
+
+.icon1{
+  margin-top: 35px;
+}
+
+
+.special-2{
+  width: 300px;
+  height: 400px;
+  margin: 20px 20px 20px 20px;
+  background-color: #222831;
+  border-radius: 15px;
+ 
+}
+
+
+.special-3{
+    width: 300px;
+    height: 400px;
+    margin: 20px 40px 20px 20px;
+    background-color:  #222831;
+    border-radius: 15px;
+ 
+}
+
+.speciality{
+  background-color:#FFF5E3;
+  margin: 100px;
+  padding-bottom: 5px;
+}
+  .specialityh1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 0.5px solid rgb(225, 225, 225);
+    background-color: #f8f8f8;
+    width: 100%;
+    color: rgb(4, 5, 50);
+}
+
+.describ-1{
+ align-content: center;
+ margin: 20px;
+ border-radius: 15px;
+}
+
+/* team css */
+
+.teamh1{
+    color: #FF6900;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+
+.chefimages{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.chefimages img{
+    width: 252.5px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* image overlay effect chef images */
+
+.container1{
+    position: relative;
+    
+}
+.container2{
+  position: relative;
+}
+.container3{
+  position: relative;
+}
+.container4{
+  position: relative;
+}
+.container5{
+  position: relative;
+}
+.container6{
+  position: relative;
+}
+
+.chefimg1 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+
+  .chefimg2 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+
+  .chefimg3 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+
+  .chefimg4 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+
+  .chefimg5 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+
+  .chefimg6 {
+    display: flexbox;
+    transition: .5s ease;
+    opacity: 1;
+    margin: 0;
+  }
+  
+  
+  .texteffect {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: 1s;
+    width: 100%;
+    bottom: 1%;
+  }
+  
+
+  .text1 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+  .container1:hover .chefimg1 {
+    opacity: 0.7;
+
+  }
+  
+  .container1:hover .texteffect {
+    opacity: 1;
+  }
+
+  .text2 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .container2:hover .chefimg2 {
+    opacity: 0.7;
+  }
+  
+  .container2:hover .texteffect {
+    opacity: 1;
+  }
+
+  .text3 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+  .container3:hover .chefimg3 {
+    opacity: 0.7;
+  }
+  
+  .container3:hover .texteffect {
+    opacity: 1;
+  }
+
+  .text4 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .container4:hover .chefimg4{
+    opacity: 0.7;
+  }
+  
+  .container4:hover .texteffect {
+    opacity: 1;
+  }
+
+  .text5 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .container5:hover .chefimg5 {
+    opacity: 0.7;
+  }
+  
+  .container5:hover .texteffect {
+    opacity: 1;
+  }
+
+  .text6 {
+    background-color: #FF6900;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .container6:hover .chefimg6 {
+    opacity: 0.7;
+  }
+  
+  .container6:hover .texteffect {
+    opacity: 1;
+  }
+
+
+  
+
+   /* this is our popular dishes section  */
+
+   .popular{
+    background-color:#FFF5E3;
+    margin: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 2px;
+    padding-bottom:15px ;
+     }
+
+   .popularheading{
+    text-align: center;
+    color: #222831;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 0;
+    position: relative;
+    margin-bottom: 0;
+    text-decoration: underline;
+   }
+   .delicious{
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    color: #222831;
+    position: relative;
+    top: 0;
+    margin: 0px 2px 10px 2px;
+   }
+   
+  .dishes{
+    display: flex;
+    background-color: #222831;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dish img{
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .dish{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;
+    background-color: #e9e9e9;
+  }
+
+  .dish:hover {
+    /* box-shadow: 0 8px 16px 0 rgba(229, 224, 207, 0.2); */
+    border: 3px solid #fe7f00;
+
+  }
+
+
+  .dishname{
+    font-size: 23px;
+    text-align: center;
+    color: #222831;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .checkmenu{
+    border: 5px solid #FF6900;
+    opacity: 1;
+    position: relative;
+    top:30%;
+    font-size: 20px;
+    background-color: #FF6900;
+    text-align: center;
+    opacity: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff;
+    text-decoration:none;
+  }
+ 
+  .dish:hover .checkmenu{
+    opacity: 1;
+  }
+
+
+
+
+
+  /* this is book a table part */
+
+  .bookatable{
+    background-color:#222831 ;
+    margin: 50px;
+    padding: 20px;
+  }
+
+  .table{
+    display: flex;
+    align-items: center;
+  }
+  .table img{
+    width: 800px;
+    height: auto;
+    
+  }
+  
+  .tableheading{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .table1{
+    margin-left:90px;
+    position: relative;
+    top:10px;
+  }
+
+  input[type=text], [type=number],[type=email],[type=datetime-local] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid #FF6900;
+    border-radius: 10px;
+    float:left;
+    align-items: center;
+    background-color: #FF6900;
+    margin-top:20px ;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d6d6d6;
+    color: #222831;
+    border: 2px solid #222831;
+  }
+
+
+
+  /* this is reviews part */
+
+  .review{
+       margin-left:auto ;
+       margin-right: auto;
+       display: flex;
+       padding: 10px;
+
+  }
+  .review1 img{
+    width:260px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 20px;
+    display: block;
+    
+
+  }
+
+  /* this is footer section */
+
+  .footer{
+    background-color: #222831;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+  }
+  
+  .links a{
+    color: white;
+    text-decoration: none;
+  
+  }
+
+  .links a:hover{
+    color: #FF6900;
+    letter-spacing: 1px;
+
+  
+  }
+
+  .spicybites{
+    margin-left: 20px;
+  }
+
+ .newsletter{
+     margin-left: 100px;
+
+ }
+
+ input[type=submit] {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: 2px solid #FF6900;
+  border-radius: 10px;
+  float:left;
+  align-items: center;
+  background-color: #FF6900;
+  margin-top:20px ;
+}
+
+input[type=submit]:hover {
+  background-color: #d6d6d6;
+  color: #222831;
+  border: 2px solid #222831;
+}
+
+
+ .Socialmedia{
+     margin-left: 100px;
+ }
+
+ .contactfooter{
+  margin-left: 100px;
+ }
+
+ 
