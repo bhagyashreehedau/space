@@ -56,7 +56,8 @@ img{
  .bookatable{
     background-color:#222831 ;
     margin: 50px;
-    padding: 50px;
+    padding: 20px;
+    padding-bottom: 50px;
   }
 
   .table{
